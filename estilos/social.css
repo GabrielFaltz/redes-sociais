@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.473);
+}
+
+/* ACIMA: usado para esconder a barra de rolagem horizontal e vertical, mto legal inclusive */
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
